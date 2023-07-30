@@ -1,0 +1,295 @@
+*body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.header-content {
+    background: rgba(225, 237, 230, 1);
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    align-items: center;
+    height: 100px;
+}
+
+.header-logo {
+    padding-left: 45px;
+}
+
+.header-nav {
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav li {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+/*BIRD*/
+.bird {
+    max-height: 620px;
+    font-family: cursive;
+}
+
+.bird-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bird-inside {
+    padding-top: 140px;
+}
+
+.bird-inside__title {
+    font-size: 50px;
+    font-weight: 500;
+} 
+
+.bird-inside__title span {
+    color:rgba(89, 141, 102, 1);
+} 
+
+.bird-inside__subtext {
+    color:rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.bird-inside__btn {
+    border: 2px solid rgba(89, 141, 102, 1);
+    width: 200px;
+    height: 50px;
+    color: rgba(89, 141, 102, 1);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+/*repro*/
+
+.repro {
+
+}
+
+.repro-content {
+    padding-top: 70px;
+}
+
+.repro-head__nav-btn {
+    margin-right: 15px;
+}
+
+.repro-head {
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 7px;
+}
+.repro-head__title {
+    color: #2C2D35;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.repro-head__nav-btn {
+    border-radius: 20px;
+    background: #D4E8D9;
+    padding: 5px 15px;
+    color: #2C2D35;
+    font-family: cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none
+}
+
+.repro-head__nav-btn:hover {
+    background: rgba(55, 107, 68, 1);
+    color: white;
+    transition: .6s;
+}
+
+
+.repro-cards {
+    padding-top: 30px;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 13px;
+}
+
+.repro-card {
+    background: rgba(225, 237, 230, 1);
+    padding: 20px;
+    font-family: cursive;
+}
+
+
+
+.repro-card__img {
+
+}
+
+.repro-card__uptitle {
+    padding-top: 10px;
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.repro-card__title {
+    padding-top: 5px;
+    color: #2C2D35;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.repro-card__subtitle {
+    padding-top: 5px;
+    color: #2C2D35;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.repro-card__price {
+    padding-top: 20px;
+    color: #598D66;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.repro-card__btn {
+    margin-top: 10px;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #598D66;
+}
+
+
+/* NEW*/
+
+.new {
+    background: url("/img/Rectangle.jpg");
+    height: 570px;
+    color: white;
+    font-family: cursive;
+    margin-top: 50px;
+}
+
+.new-title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.new-content {
+    padding-top: 60px;
+}
+.new-btn {
+    width: 250px;
+    height: 60px;
+    background-color:rgba(238, 219, 109, 1);
+    font-size: 20px;
+    font-family: cursive;
+    border: none;
+    margin-top: 50px;
+}
+
+.new-head {
+    display: grid;
+    grid-template-columns: 0fr 8fr;
+    grid-gap: 14px;
+    align-items: center;
+}
+
+.new-text {
+    padding-top: 15px;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*OUR*/
+.our-content {
+    font-family: cursive;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.our-team__title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.our-team__text {
+    font-style: 18px;
+    font-weight: 500;
+}
+
+.our-team__icons {
+    display: flex;
+    gap: 20px;
+}
+
+/* FOOTER*/
+.color-grey {
+    color: rgba(134, 146, 139, 1);
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.footer {
+    background: rgba(225, 237, 230, 1);
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-content {
+    background: rgba(225, 237, 230, 1);
+    font-family: cursive;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-height {
+    line-height: 30px;
+}
